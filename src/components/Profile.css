@@ -1,0 +1,12 @@
+.profileFrame {
+  position: relative;
+  width: 3.5vw;
+  height: 7.5vh;
+  left: 93%;
+  top: 4vh;
+  background-color: aqua;
+}
+
+.profileImg {
+  width: 100%;
+}/*# sourceMappingURL=Profile.css.map */
