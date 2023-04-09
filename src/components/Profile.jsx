@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Profile.scss"
+import "../cass/Profile.scss"
 
 import BlankProfileImg from '../img/bros_blank.jpg';
 
