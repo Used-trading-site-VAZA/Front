@@ -1,5 +1,5 @@
 .profileFrame {
-  position: relative;
+  position: absolute;
   width: 7.5vh;
   height: 7.5vh;
   left: 93%;

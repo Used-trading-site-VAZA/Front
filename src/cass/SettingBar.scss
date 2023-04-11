@@ -16,19 +16,26 @@
 
   align-items: center;
 
+  
+  
   & .line {
+    margin: 0;
     position: relative;
+    width: 70%;
+    height: 1.2px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
   }
   & p {
+    margin-left: 20%;
     text-decoration: none;
     font-family: "EliceDigitalBaeum-Bd";
-    font-size: 20px;
+    font-size: 15px;
     color: black;
   }
   & a {
     text-decoration: none;
-    font-family: "EliceDigitalBaeum-Bd";
-    font-size: 20px;
-    color: black;
+    
   }
 }

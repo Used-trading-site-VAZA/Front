@@ -1,0 +1,13 @@
+.SearchFrame {
+  position: absolute;
+  width: 18vw;
+  height: 4vh;
+  left: 72%;
+  top: 5.6%;
+  border: 0;
+  border-radius: 6px;
+  background-color: #FFA0A0;
+}
+.SearchFrame:focus {
+  border: 1px solid #fff;
+}/*# sourceMappingURL=SearchBar.css.map */

@@ -16,7 +16,7 @@ export default function SettingBar({ user,showBar }) {
 
     return (
       <div className="BarFrame">
-        <p>{user ? "로딩중" : user}</p>
+        <p>{user&&!user===null? user:"로딩중"}</p>
         <div className="line"></div>
         
         <p onClick={goChat}>채팅</p>
@@ -31,3 +31,6 @@ export default function SettingBar({ user,showBar }) {
     );
   }
   
+SettingBar.defaultProps={
+  user:"김민수",
+}

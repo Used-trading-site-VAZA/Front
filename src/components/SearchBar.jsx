@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "../cass/SearchBar.scss";
 
 export default function SearchBar(){
     const [text,setText] = useState('');
@@ -14,8 +14,8 @@ export default function SearchBar(){
 
     return(
         <>
-            <input onChange={onChange} value={text} type="text"></input>
-            <button onClick={onSearch}>검색</button>
+            <input className="SearchFrame" onChange={onChange} value={text} type="text"></input>
+            {/* <button onClick={onSearch}>검색</button> */}
         </>
     );
 

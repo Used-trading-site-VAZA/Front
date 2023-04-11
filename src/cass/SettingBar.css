@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "EliceDigitalBaeum-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.BarFrame {
+  position: absolute;
+  left: 89.3%;
+  width: 7vw;
+  top: 14.5vh;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  align-items: center;
+}
+.BarFrame .line {
+  margin: 0;
+  position: relative;
+  width: 70%;
+  height: 1.2px;
+  background-color: black;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.BarFrame p {
+  margin-left: 20%;
+  text-decoration: none;
+  font-family: "EliceDigitalBaeum-Bd";
+  font-size: 15px;
+  color: black;
+}
+.BarFrame a {
+  text-decoration: none;
+}/*# sourceMappingURL=SettingBar.css.map */
