@@ -13,7 +13,8 @@ export default function SearchBar(){
     }
 
     return(
-        <>
+        <>  
+        
             <input className="SearchFrame" onChange={onChange} value={text} type="text"></input>
             {/* <button onClick={onSearch}>검색</button> */}
         </>
