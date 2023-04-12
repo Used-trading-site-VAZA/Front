@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "EliceDigitalBaeum-Bd";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2")
+      format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.filter{
+
+}
+
+.line_1{
+    position: relative;
+    width: 70vw;
+    height: 1px;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.5px;
+    background-color: rgb(180, 180, 180);
+}
+
+.frame{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: 70%; 
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+    
+    & .list{
+        position: relative;
+        height: 35vh;
+        margin:0.9%;
+        width: 18%; 
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        & .img{
+            position: relative;
+            width: 90%;
+            height: 70%;
+            top: 6%;
+            left: 50%;
+            transform: translate(-50%,0);
+            border-radius: 8px;
+            background-color: bisque;
+        }
+        & .title{
+            position: relative;
+            width: 90%;
+            
+
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+            & p{
+                
+                align-items: center;
+                font-family: "EliceDigitalBaeum-Bd";
+            }
+        }
+        & .sale{
+            position: relative;
+            width: 90%;
+            
+
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+            & p{
+                align-items: center;
+                font-family: "EliceDigitalBaeum-Bd";
+            }
+        }
+    }
+}
+

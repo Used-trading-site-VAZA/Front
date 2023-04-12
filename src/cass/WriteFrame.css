@@ -1,6 +1,93 @@
+@font-face {
+  font-family: "EliceDigitalBaeum-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 .WriteOutFrame {
   position: relative;
   width: 60vw;
-  height: 40vh;
+  height: 60vh;
+  left: 50%;
+  top: 18vh;
+  border-radius: 14px;
+  transform: translateX(-50%);
+  background-color: #FFAAAA;
+}
+.WriteOutFrame form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.WriteOutFrame form .titleInput {
+  position: relative;
+  width: 50%;
+  height: 8%;
+  margin-bottom: 1.2%;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "EliceDigitalBaeum-Bd";
+}
+.WriteOutFrame form .moneyInput {
+  position: relative;
+  width: 13%;
+  height: 7%;
+  margin-bottom: 1.2%;
+  border: 0;
+  border-radius: 5px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.WriteOutFrame form .Transaction {
+  position: relative;
+  width: 11%;
+  margin-bottom: 1.2%;
+  font-size: 15px;
+  border: 0;
+  border-radius: 3px;
+  font-family: "EliceDigitalBaeum-Bd";
+}
+.WriteOutFrame form textarea {
+  position: relative;
+  width: 70%;
+  height: 50%;
+  border: 0;
+  border-radius: 9px;
+  resize: none;
+  font-size: 13px;
+  font-family: "EliceDigitalBaeum-Bd";
+}
+.WriteOutFrame form p {
+  font-family: "EliceDigitalBaeum-Bd";
+}
+.WriteOutFrame form .upload {
+  position: absolute;
+  width: 12%;
+  height: 9%;
+  left: 80%;
+  top: 80%;
   background-color: aqua;
+}
+.WriteOutFrame form .upload .BTN {
+  position: relative;
+  width: 110%;
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-family: "EliceDigitalBaeum-Bd";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.WriteOutFrame form .upload .BTN:hover {
+  width: 120%;
+  height: 110%;
 }/*# sourceMappingURL=WriteFrame.css.map */

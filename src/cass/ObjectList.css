@@ -1,0 +1,33 @@
+.frame {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.frame .list {
+  position: relative;
+  height: 35vh;
+  margin: 0.9%;
+  width: 18%;
+  border: 1px solid black;
+}
+.frame .list .img {
+  position: relative;
+  width: 90%;
+  height: 70%;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 8px;
+  background-color: bisque;
+}
+.frame .list .title {
+  position: relative;
+}
+.frame .list .title p {
+  align-items: center;
+}/*# sourceMappingURL=ObjectList.css.map */

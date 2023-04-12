@@ -15,7 +15,9 @@ export default function WriteFrame() {
         </select>
         <textarea></textarea>
         <p>Tip. 거래시 발생하는 문제는 저희가 책임지지 않아요!!</p>
-        <button className="uploadBTN" type="submit">업로드</button>
+        <div className="upload">
+          <button className="BTN" type="submit">업로드</button>
+        </div>
       </form>
     </div>
   );
